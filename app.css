@@ -98,6 +98,9 @@ button:active {
 .projects li h2 {
   color: #ff0062;
   margin: 0.5rem 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #finished-projects li h2 {
@@ -109,8 +112,11 @@ button:active {
   font-size: 1rem;
 }
 
-.project li p {
+.projects li p {
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .droppable {
